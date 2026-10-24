@@ -1,0 +1,7 @@
+# Needed to run notebooks/01_data_investigation.ipynb (tested with pandas 2.2.3 and 3.1.0, Python 3.12)
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+ipykernel>=6.29   # runs the notebook in VS Code / Jupyter
+nbconvert>=7.16   # headless run: jupyter nbconvert --to notebook --execute --inplace notebooks/01_data_investigation.ipynb
